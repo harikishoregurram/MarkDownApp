@@ -12,8 +12,10 @@
 
 
 ### Steps to run the project:
-- To run the project use
-  - `mvn clean install exec:java` in the terminal 
+- To run the project
+  - Clone the project (or) download Zip
+  - Navigate to the project folder in the command line and run the below command in the terminal
+  - Run: `mvn clean install exec:java`  
   - For sample input file path use: `src/main/resources/data.txt` or `src/main/resources/data2.txt`
   - Once the input file path is given, the output html file path is displayed in the terminal. Copy the html path and paste it in the browser to view the converted html page. Output path of the html is going be in this form: `file:///**/**/**/MarkDownApp/src/main/resources/output.html`
 - Tests inside the TestFormatter class can be run individually or as a group using supported IDE or by command line.
