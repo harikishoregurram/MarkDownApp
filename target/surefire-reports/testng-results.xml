@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-09T13:31:20 PDT" name="com.format.TestFormatter" finished-at="2022-10-09T13:31:20 PDT" duration-ms="49">
+    <groups>
+    </groups>
+    <test started-at="2022-10-09T13:31:20 PDT" name="Command line test" finished-at="2022-10-09T13:31:20 PDT" duration-ms="49">
+      <class name="com.format.TestFormatter">
+        <test-method signature="testMarkDownHTML()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHTML" description="Verify that the function returns valid string for a valid input file" finished-at="2022-10-09T13:31:20 PDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHTML -->
+        <test-method signature="testMarkDownHTML1()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHTML1" description="Verify that the function returns valid string for a valid input file" finished-at="2022-10-09T13:31:20 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHTML1 -->
+        <test-method signature="testMarkDownHTMLWithInvalidFilePath()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHTMLWithInvalidFilePath" description="Verify that the function returns exception for invalid file path" finished-at="2022-10-09T13:31:20 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHTMLWithInvalidFilePath -->
+        <test-method signature="testMarkDownHTMLWithInvalidFilePath1()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHTMLWithInvalidFilePath1" description="Verify that the function returns exception for invalid file path" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHTMLWithInvalidFilePath1 -->
+        <test-method signature="testMarkDownHeaderTagWithEmptyStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHeaderTagWithEmptyStr" description="Verify that the function returns null string for empty string" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHeaderTagWithEmptyStr -->
+        <test-method signature="testMarkDownHeaderTagWithLinkText()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHeaderTagWithLinkText" description="Verify that the function returns valid string for a valid input with LinkText" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHeaderTagWithLinkText -->
+        <test-method signature="testMarkDownHeaderTagWithValidStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownHeaderTagWithValidStr" description="Verify that the function returns valid string for a valid input" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownHeaderTagWithValidStr -->
+        <test-method signature="testMarkDownLinkTagWithValidStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownLinkTagWithValidStr" description="Verify that the function returns valid string for a valid input" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownLinkTagWithValidStr -->
+        <test-method signature="testMarkDownParagraphTagWithEmptyStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownParagraphTagWithEmptyStr" description="Verify that the function returns null string for empty string" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownParagraphTagWithEmptyStr -->
+        <test-method signature="testMarkDownLinkTagWithEmptyStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownLinkTagWithEmptyStr" description="Verify that the function returns null string for empty string" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownLinkTagWithEmptyStr -->
+        <test-method signature="testMarkDownParagraphTagWithLinkText()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownParagraphTagWithLinkText" description="Verify that the function returns valid string for a valid input with LinkText" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownParagraphTagWithLinkText -->
+        <test-method signature="testMarkDownParagraphTagWithValidStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownParagraphTagWithValidStr" description="Verify that the function returns valid string for a valid input" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownParagraphTagWithValidStr -->
+        <test-method signature="testMarkDownWithEmptyStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownWithEmptyStr" description="Verify that the function returns null string for empty string" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownWithEmptyStr -->
+        <test-method signature="testMarkDownWithValidStr()[pri:0, instance:com.format.TestFormatter@1877ab81]" started-at="2022-10-09T13:31:20 PDT" name="testMarkDownWithValidStr" description="Verify that the function returns valid string for a valid input" finished-at="2022-10-09T13:31:20 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkDownWithValidStr -->
+      </class> <!-- com.format.TestFormatter -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.format.TestFormatter -->
+</testng-results>
